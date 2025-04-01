@@ -8,7 +8,6 @@ La API expone un endpoint para obtener el **detalle de productos relacionados** 
 
 ---
 
----
 
 ## **Características**
 
@@ -50,6 +49,8 @@ La API expone un endpoint para obtener el **detalle de productos relacionados** 
    docker run --name prueba-tecnica-knowmad-mood -p 5000:5000 albertoalonso/prueba-tecnica-knowmad-mood
 
 4. **Acceder a la API de Swagger mediante: http://localhost:5000/swagger-ui.html**
+
+---
 
 ## **Conexión entre contenedores**
 Si tras seguir las instrucciones de ejecución, el endpoint no encuentra valores, es bastante probable que los contenedores se encuentren en networks distintas. Para solucionarlo:
