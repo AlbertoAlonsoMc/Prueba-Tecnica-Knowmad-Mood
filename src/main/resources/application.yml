@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Prueba técnica - Alberto Alonso
+
+server:
+  port: 5000
+
+api:
+  client:
+    base-url: http://localhost:3001/product
+#    base-url: http://host.docker.internal:3001/product (Esta es la que se está utilizando en el contenedor de Docker)
